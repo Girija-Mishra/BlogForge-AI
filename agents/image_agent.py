@@ -69,7 +69,7 @@ IMAGE PROMPT:
     # ========================================================
 
     response = client.chat.completions.create(
-        model="nvidia/nemotron-nano-9b-v2:free",
+        model="openrouter/free",
 
         messages=[
             {
